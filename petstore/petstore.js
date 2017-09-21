@@ -21,7 +21,7 @@ function calculateFoodOrder(numAnimals, avgFood) {
 	if (Number.isNaN(numAnimals) || Number.isNaN(avgFood)){
 	    return -1;
 	}
-	if (numANimals < 0 || avgFood <0) {
+	if (numAnimals < 0 || avgFood <0) {
 		return -1;
 		
 	}
@@ -61,7 +61,7 @@ function mostPopularDays(week) {
 		var today = week[i];
 		
 		console.log('item= ' + i +
-		           ' name= ' + today.name 
+		           ' name=' + today.name 
 				 + ' traffic=' + today.traffic);
 		// is today the new max?
 		if (today.traffic >= maxDay.traffic) {
@@ -94,6 +94,7 @@ function testPopDays() {
 	var emptyDays = [];
 	popular = mostPopularDays(emptyDays);
 	console.log('expected null, got ' + popular); 
+	//hello
 	
 	
 	
