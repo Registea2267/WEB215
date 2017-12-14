@@ -1,0 +1,26 @@
+
+h1 {
+    color: gray;
+    font-family: verdana;
+    font-size: 200%;
+}
+h2 {
+    color: gray;
+    font-family: verdana;
+    font-size: 145%;
+}
+p  {
+    color: gray;
+    font-family: verdana;
+    font-size: 100%;
+}
+div {
+    color: gray;
+    font-family: verdana;
+    font-size: 90%;
+}
+footer {
+    color: gray;
+    font-family: verdana;
+    font-size: 100%;
+}
